@@ -1,0 +1,3 @@
+/*
+ * Custom child theme scripts.
+ */

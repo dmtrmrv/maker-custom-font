@@ -1,0 +1,62 @@
+/*
+Theme Name:  Maker with Custom Font
+Theme URI:   https://themepatio.com/themes/maker/
+Template:    maker
+Author:      ThemePatio
+Author URI:  https://themepatio.com/
+Description: Maker child theme with Source Serif Pro used for headings. 
+Version:     0.1.0
+License:     GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: maker-custom-font
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/**
+ * DO NOT USE @import TO INCLUDE PARENT THEME STYLESHEET. IT IS INCLUDED IN functions.php INSTEAD.
+ */
+
+/**
+ * Use Source Sans Pro on all headings, site-title, and category name in post meta.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title {
+	font-family: 'Source Serif Pro', serif;
+}
+
+/**
+ * Make the color of all headings, site title, and post titles black.
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.site-title a,
+.entry-title,
+.entry-title a {
+	color: #000;
+}
+
+/**
+ * Make post titles bigger on tablets and desktop screens.
+ */
+
+@media screen and (min-width: 1024px) {
+	.entry-title {
+		font-size: 2.25em;
+	}
+}

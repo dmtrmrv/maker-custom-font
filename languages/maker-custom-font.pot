@@ -1,0 +1,34 @@
+# Copyright (C) 2016 ThemePatio
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Maker with Custom Font 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2016-10-15 10:44:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#. Theme Name of the plugin/theme
+msgid "Maker with Custom Font"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themepatio.com/themes/maker/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Maker child theme with Source Serif Pro used for headings."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemePatio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themepatio.com/"
+msgstr ""
