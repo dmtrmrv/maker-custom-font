@@ -8,11 +8,7 @@ License URI:       http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Maker theme with Playfair Display and Open Sans.
-
-== Copyright ==
-
-Maker child theme with Source Serif Pro used for headings.
+Maker Child theme with Raleway font used for headings.
 
 == Changelog ==
 
