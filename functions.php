@@ -8,7 +8,7 @@
 /**
  * The current version of the theme.
  */
-define( 'MAKER_CUSTOM_FONT_VERSION', '0.1.0' );
+define( 'MAKER_CHILD', '0.1.0' );
 
 /**
  * Enqueue scripts and styles.
@@ -18,10 +18,10 @@ function MAKER_CUSTOM_FONT_scripts() {
 	 * Add Custom Fonts CSS.
 	 */
 	 wp_enqueue_style(
-		'maker-custom-fonts',
+		'maker-childs',
 		'https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i',
 		array(),
-		MAKER_CUSTOM_FONT_VERSION
+		MAKER_CHILD
 	);
 
 	/*
@@ -34,17 +34,17 @@ function MAKER_CUSTOM_FONT_scripts() {
 		'maker-style',
 		get_template_directory_uri() . '/style.css',
 		array(),
-		MAKER_CUSTOM_FONT_VERSION
+		MAKER_CHILD
 	);
 
 	/**
 	 * Child Theme Styles.
 	 */
 	wp_enqueue_style(
-		'maker-custom-font-style',
+		'maker-child-style',
 		get_stylesheet_uri(),
 		array(),
-		MAKER_CUSTOM_FONT_VERSION
+		MAKER_CHILD
 	);
 
 	/**
@@ -54,10 +54,10 @@ function MAKER_CUSTOM_FONT_scripts() {
 	 * this block to save one server request.
 	 */
 	// wp_enqueue_script(
-	// 	'maker-custom-font-scripts',
+	// 	'maker-child-scripts',
 	// 	get_stylesheet_directory_uri() . '/assets/js/project.js',
 	// 	array(),
-	// 	MAKER_CUSTOM_FONT_VERSION
+	// 	MAKER_CHILD
 	// );
 }
 add_action( 'wp_enqueue_scripts', 'MAKER_CUSTOM_FONT_scripts' );
