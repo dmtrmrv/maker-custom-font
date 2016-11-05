@@ -22,28 +22,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
  */
 
 /**
- * Use Source Sans Pro on all headings, site-title, and category name in post meta.
+ * Use Raleway on all headings and site-title.
  */
 h1, h2, h3, h4, h5, h6,
 .site-title {
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-/**
- * Make the color of all headings, site title, and post titles black.
- */
-h1, h2, h3, h4, h5, h6,
-.site-title a,
-.entry-title,
-.entry-title a {
-	color: #000;
-}
-
-/**
- * Make post titles bigger on tablets and desktop screens.
- */
-@media screen and ( min-width: 1024px ) {
-	.entry-title {
-		font-size: 2.25em;
-	}
+.site-title {
+	font-weight: normal;
 }

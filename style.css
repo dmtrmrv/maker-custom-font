@@ -4,7 +4,7 @@ Theme URI:   https://themepatio.com/themes/maker/
 Template:    maker
 Author:      ThemePatio
 Author URI:  https://themepatio.com/
-Description: Maker child theme with Source Serif Pro used for headings. 
+Description: Maker child theme with Source Serif Pro used for headings.
 Version:     0.1.0
 License:     GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -22,7 +22,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
  */
 
 /**
- * Use Source Sans Pro on all headings, site-title, and category name in post meta.
+ * Use Raleway on all headings and site-title.
  */
 
 h1,
@@ -32,31 +32,9 @@ h4,
 h5,
 h6,
 .site-title {
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Raleway', sans-serif;
 }
 
-/**
- * Make the color of all headings, site title, and post titles black.
- */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.site-title a,
-.entry-title,
-.entry-title a {
-	color: #000;
-}
-
-/**
- * Make post titles bigger on tablets and desktop screens.
- */
-
-@media screen and (min-width: 1024px) {
-	.entry-title {
-		font-size: 2.25em;
-	}
+.site-title {
+	font-weight: normal;
 }

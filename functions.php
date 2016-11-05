@@ -19,7 +19,7 @@ function MAKER_CUSTOM_FONT_scripts() {
 	 */
 	 wp_enqueue_style(
 		'maker-custom-fonts',
-		'https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,700',
+		'https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i',
 		array(),
 		MAKER_CUSTOM_FONT_VERSION
 	);
@@ -53,11 +53,11 @@ function MAKER_CUSTOM_FONT_scripts() {
 	 * If your theme doesn't add any JavaScript, safely remove or comment out
 	 * this block to save one server request.
 	 */
-	wp_enqueue_script(
-		'maker-custom-font-scripts',
-		get_stylesheet_directory_uri() . '/assets/js/project.js',
-		array(),
-		MAKER_CUSTOM_FONT_VERSION
-	);
+	// wp_enqueue_script(
+	// 	'maker-custom-font-scripts',
+	// 	get_stylesheet_directory_uri() . '/assets/js/project.js',
+	// 	array(),
+	// 	MAKER_CUSTOM_FONT_VERSION
+	// );
 }
 add_action( 'wp_enqueue_scripts', 'MAKER_CUSTOM_FONT_scripts' );
