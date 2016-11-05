@@ -12,6 +12,12 @@ Maker Child theme with Raleway font used for headings.
 
 == Changelog ==
 
+= 0.1.1 =
+
+Fix: Updated README.txt
+Change: Removed the screenshot
+Change: Change the Font to Raleway
+
 = 0.1.0 =
 
 Initial release
