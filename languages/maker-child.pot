@@ -22,7 +22,7 @@ msgid "https://themepatio.com/themes/maker/"
 msgstr ""
 
 #. Description of the plugin/theme
-msgid "Maker child theme with Source Serif Pro used for headings."
+msgid "Maker child theme with Raleway used for headings."
 msgstr ""
 
 #. Author of the plugin/theme

@@ -4,7 +4,7 @@ Theme URI:   https://themepatio.com/themes/maker/
 Template:    maker
 Author:      ThemePatio
 Author URI:  https://themepatio.com/
-Description: Maker child theme with Source Serif Pro used for headings.
+Description: Maker child theme with Raleway used for headings.
 Version:     0.1.1
 License:     GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -35,6 +35,6 @@ h6,
 	font-family: 'Raleway', sans-serif;
 }
 
-.site-title {
-	font-weight: normal;
+.page-template-centered .entry-title {
+	text-align: centered;
 }
